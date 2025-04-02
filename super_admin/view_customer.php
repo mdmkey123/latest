@@ -120,7 +120,7 @@ if (!$row = mysqli_fetch_assoc($result)) {
                             <p><strong>Status:</strong> <?= htmlspecialchars($row['status']) ?></p>
                             <p><strong>Locked:</strong> <?= $row['locked'] ? 'Yes' : 'No' ?></p>
                             <p><strong>Created At:</strong> <?= date("d-m-Y H:i:s", strtotime($row['created_at'])) ?></p>
-                            <p><strong>Control Panel : </strong><a href="https://zyntro.in/admin/super_admin/control_panel.php?id=<?php echo $row['id'];?>">View</a></p>
+                            <p><strong>Control Panel : </strong><a href="https://mdmlock.in/jmvpay/admin/super_admin/control_panel.php?id=<?php echo $row['id'];?>">View</a></p>
                         </div>
                     </div>
                 </div>

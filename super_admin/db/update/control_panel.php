@@ -95,7 +95,7 @@ include '../config.php';
             return true;
      }
      function getAccessToken() {
-            $jsonKeyFile = 'https://zyntro.in/apis/uploads/ZyntroFirebasePrivateKey.json'; // Path to your service account JSON file
+            $jsonKeyFile = 'https://mdmlock.in/jmvpay/apis/uploads/ZyntroFirebasePrivateKey.json'; // Path to your service account JSON file
             $tokenUri = 'https://oauth2.googleapis.com/token';
         
             $keyData = json_decode(file_get_contents($jsonKeyFile), true);

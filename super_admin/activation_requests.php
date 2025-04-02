@@ -67,9 +67,9 @@ $totalPages = ceil($totalRecords / $limit);
                                                     <td><?php echo $sr_no; ?></td>
                                                     <td><?php echo $row['request_id']; ?></td>
                                                     <td><?php echo $customer['registration_number']; ?></td>
-                                                    <td><a href="https://zyntro.in/admin/super_admin/view_customer.php?id=<?php echo $customer['id']; ?>"><?php echo $customer['name']; ?></a></td>
+                                                    <td><a href="https://mdmlock.in/jmvpay/admin/super_admin/view_customer.php?id=<?php echo $customer['id']; ?>"><?php echo $customer['name']; ?></a></td>
                                                     <td><?php echo $row['status']; ?></td>
-                                                    <td><a href="https://zyntro.in/admin/super_admin/view_retailer.php?id=<?php echo $retailer['id']; ?>"><?php echo $retailer['first_name']." ".$retailer['last_name'] ; ?></a></td>
+                                                    <td><a href="https://mdmlock.in/jmvpay/admin/super_admin/view_retailer.php?id=<?php echo $retailer['id']; ?>"><?php echo $retailer['first_name']." ".$retailer['last_name'] ; ?></a></td>
                                                     <td><?php echo $row['created_at']; ?></td>
                                                     <td>
                                                         <button class='status-btn active-status' onclick='toggleStatus(<?php echo $row['request_id'];?>,"<?php echo $super_admin_id;?>","<?php echo "super_admin";?>")' id='status-{$row['id']}'>

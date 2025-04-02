@@ -42,7 +42,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                  $image= $_FILES['payment_qr'];
                  $target_dir = "uploads/document/";
                  $target_file_qr = $target_dir . "payment_qr".$t;
-                 $path = "https://zyntro.in/admin/super_admin/db/insert/uploads/document/";
+                 $path = "https://mdmlock.in/jmvpay/admin/super_admin/db/insert/uploads/document/";
                  $document_url_qr = $path."payment_qr".$t;
              }
 
